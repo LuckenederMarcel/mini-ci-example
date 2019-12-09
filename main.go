@@ -13,7 +13,7 @@ func handler(w http.ResponseWriter, r *http.Request) {
 }
 
 func getMinute(minute int, second int) int {
-	return minute + second
+	return minute + second/30
 }
 
 func main() {
